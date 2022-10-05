@@ -1,0 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        maven { url "https://api.xposed.info/" }
+        maven { url "https://www.jitpack.io" }
+        mavenCentral()
+    }
+}
+rootProject.name = "DePixelifyGooglePhotos"
+include ':app'
